@@ -1,36 +1,49 @@
 <html lang="en">
-  <!-- html Head -->
-  <partial src="header.html"></partial>
-  <!-- End of html Head -->
-
+  <partial src="head.html"></partial>
   <body>
-    <partial src="navbar.html"></partial>
+    <partial src="header.html"></partial>
     <main>
-      <partial src="form.html"></partial>
-    </main>
+      <div class="container">
+        <h1>HTML5 + Scss + Gulp Boilerplate</h1>
+        <p class="lead">This is the simplest and powerful boilerplate to create your projects. Just install and run.</p>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/svg4everybody.min.js"></script>
-    <script src="./assets/js/svg4everybody.legacy.min.js"></script>
-    <script>
-      svg4everybody();
-    </script>
+        <section class="step">
+          <h3>1. Installation</h3>
+          <p>Clone repository to your project folder:</p>
+          <code>
+            <pre>git clone git@github.com:toxuh/html5-scss-bolerplate.git .</pre>
+          </code>
+          <p>Then install packages:</p>
+          <code>
+            <pre>npm i // Node</pre>
+            <pre>yarn // Yarn</pre>
+          </code>
+        </section>
+        <section class="step">
+          <h3>2. Usage</h3>
+          <p>To run project in development mode, run:</p>
+          <code>
+            <pre>npm run start // Node</pre>
+            <pre>yarn start // Yarn</pre>
+          </code>
+          <p>Code will be served on 3000 port. It has autoreload, so no more F5 spam.</p>
+          <p>To build the project, run:</p>
+          <code>
+            <pre>npm run build // Node</pre>
+            <pre>yarn build // Yarn</pre>
+          </code>
+        </section>
+        <section class="step">
+          <h3>3. Details</h3>
+          <p>Boilerplate supports scss, html partials</p>
+        </section>
+      </div>
+    </main>
+    <footer class="main">
+      <div class="container">
+        &copy; Anton Zakharov.
+      </div>
+    </footer>
+    <partial src="scripts.html"></partial>
   </body>
 </html>

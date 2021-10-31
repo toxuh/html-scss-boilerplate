@@ -1,0 +1,39 @@
+header {
+  background-color: $color-blue;
+  color: $color-white;
+  padding: 1rem 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a.logo {
+    display: block;
+
+    img {
+      height: auto;
+      width: 10rem;
+    }
+  }
+
+  ul {
+    font-weight: 300;
+
+    li {
+      display: inline-block;
+
+      a {
+        color: $color-white;
+        line-height: 2.5rem;
+        padding: 0 1rem;
+        text-decoration: none;
+        transition: opacity 0.2s ease-in-out;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

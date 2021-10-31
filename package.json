@@ -1,16 +1,14 @@
 {
   "name": "htmlboilerplate",
-  "version": "1.0.0",
-  "description": "Html BoilerPlate with Sass, Bootstrap 4, Gulp",
-  "author": "Jagath Jayakumar",
+  "version": "1.0.0a",
+  "description": "Html BoilerPlate with Sass and Gulp",
+  "author": "Anton Zakharov",
+  "type": "module",
   "scripts": {
-    "build": "gulp",
     "start": "gulp serve",
-    "prod": "cross-env NODE_ENV=prod gulp"
+    "build": "cross-env NODE_ENV=prod gulp"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
-    "bootstrap": "^4.5.0",
     "browser-sync": "^2.26.7",
     "cross-env": "^7.0.2",
     "gulp": "^4.0.2",
@@ -22,13 +20,11 @@
     "gulp-html-partial": "^1.0.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^5.0.3",
+    "gulp-imagemin": "^8.0.0",
     "gulp-js-import": "^1.0.6",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
-  },
-  "dependencies": {
-    "gulp-google-webfonts": "^2.1.0"
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.43.4"
   }
 }
