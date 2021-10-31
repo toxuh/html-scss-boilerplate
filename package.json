@@ -1,7 +1,20 @@
 {
   "name": "htmlboilerplate",
   "version": "1.0.0a",
-  "description": "Html BoilerPlate with Sass and Gulp",
+  "private": false,
+  "description": "Html boilerplate with scss, gulp, fontawesome and HTML partials.",
+  "keywords": [
+    "boilerplate",
+    "html5",
+    "scss",
+    "gulp",
+    "fontawesome",
+    "partials",
+    "jQuery",
+    "html5 boilerplate",
+    "sass",
+    "css"
+  ],
   "author": "Anton Zakharov",
   "type": "module",
   "scripts": {

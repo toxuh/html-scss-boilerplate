@@ -14,7 +14,7 @@ This is the deep refactoring of Jagath Jayakumar [repo](https://github.com/jagat
 
 #### In progress:
 
-* fix all vulnerabilities in libraries
+* fix vulnerabilities in side libraries
 * front page
 * about page
 * readme update

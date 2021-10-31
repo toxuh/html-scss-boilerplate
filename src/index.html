@@ -5,8 +5,11 @@
     <main>
       <div class="container">
         <h1>HTML5 + Scss + Gulp Boilerplate</h1>
-        <p class="lead">This is the simplest and powerful boilerplate to create your projects. Just install and run.</p>
+        <p class="lead">Simplest and powerful boilerplate to create your projects. Just install and run.</p>
 
+        <section class="step">
+          <p>This is the deep refactoring of Jagath Jayakumar <a href="https://github.com/jagathgj/html-sass-bootstrap-gulp-multipage-boilerplate" target="_blank">repo</a>. You'll find changelog below.</p>
+        </section>
         <section class="step">
           <h3>1. Installation</h3>
           <p>Clone repository to your project folder:</p>
@@ -35,15 +38,25 @@
         </section>
         <section class="step">
           <h3>3. Details</h3>
-          <p>Boilerplate supports scss, html partials</p>
+          <p>Boilerplate supports scss and html partials. Latest version of jQuery and free set of font awesome are also connected.</p>
+          <p>Partials is a repeated code parts, that you can include to your pages without repetition. Use them for really often repeated parts for best performance.</p>
+          <p>In development mode, your code is builds in /public directory and server on port 3000. In production mode all code will be minified and collected to /build directory.</p>
+        </section>
+        <section class="step">
+          <h3>4. Changelog</h3>
+          <ul>
+            <li>Project is now supports ES6 (module).</li>
+            <li>All libraries are up-to-date.</li>
+            <li>Removed bootstrap (bootstrap 5 will be added later).</li>
+            <li>Fontawesome included like js script.</li>
+            <li>Scripts are now in partial.</li>
+            <li>Project build is now in different folder (/build) and all minifiers works correct.</li>
+            <li>Added editor config for some codestyle.</li>
+          </ul>
         </section>
       </div>
     </main>
-    <footer class="main">
-      <div class="container">
-        &copy; Anton Zakharov.
-      </div>
-    </footer>
+    <partial src="footer.html"></partial>
     <partial src="scripts.html"></partial>
   </body>
 </html>
