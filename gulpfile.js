@@ -73,7 +73,7 @@ const img = () => {
 }
 
 export const fonts = () => {
-  return gulp.src('src/assets/fonts/*.{eot,svg,ttf,woff,woff2}')
+  return gulp.src('src/assets/fonts/*.{eot,svg,otf,ttf,woff,woff2}')
     .pipe(gulp.dest(`${dir}/assets/fonts/`));
 }
 
@@ -97,7 +97,7 @@ const watchFiles = () => {
   gulp.watch('src/assets/**/*.scss', gulp.series(css, browserSyncReload));
   gulp.watch('src/assets/**/*.js', gulp.series(js, browserSyncReload));
   gulp.watch('src/assets/img/**/*.*', gulp.series(img));
-  gulp.watch('src/assets/**/*.{eot,svg,ttf,woff,woff2}', gulp.series(fonts));
+  gulp.watch('src/assets/**/*.{eot,svg,otf,ttf,woff,woff2}', gulp.series(fonts));
 
   return;
 }
