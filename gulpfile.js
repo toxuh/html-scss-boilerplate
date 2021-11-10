@@ -67,7 +67,7 @@ export const js = () => {
 }
 
 const img = () => {
-  return gulp.src('src/assets/img/*')
+  return gulp.src('src/assets/img/**/*')
     .pipe(gulpIf(isProd, gulpImagemin()))
     .pipe(gulp.dest(`${dir}/assets/img/`));
 }
