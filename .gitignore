@@ -6,5 +6,4 @@ node_modules
 .idea
 
 # Builds
-build
 public

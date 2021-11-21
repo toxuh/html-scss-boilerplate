@@ -1,7 +1,7 @@
 {
   "name": "htmlboilerplate",
   "version": "1.0.0a",
-  "private": false,
+  "private": true,
   "description": "Html boilerplate with scss, gulp, fontawesome and HTML partials.",
   "keywords": [
     "boilerplate",
@@ -15,7 +15,11 @@
     "sass",
     "css"
   ],
-  "author": "Anton Zakharov",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:toxuh/html-scss-boilerplate.git"
+  },
+  "author": "Anton Zakharov<zakharov.toxa@gmail.com>",
   "type": "module",
   "scripts": {
     "start": "gulp serve",
